@@ -20,8 +20,3 @@ promtai-loki-grafana-simple/
 cd path/to/project
 docker-compose up -d
 ```
-Важно, чтобы контейнер с приложением находился в одной сети с стеком. Существующий контейнер можно подключить к сети следующей командой:
-``` Shell
-cd path/to/project
-docker network connect your-network-name your-conteiner-name
-```
