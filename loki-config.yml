@@ -37,6 +37,8 @@ compactor:
   retention_delete_worker_count: 150
 
 limits_config:
+  max_line_size_truncate: false
+  max_line_size: 16MB
   enforce_metric_name: false
   reject_old_samples: true
   reject_old_samples_max_age: 168h
